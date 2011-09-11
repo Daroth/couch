@@ -4,6 +4,18 @@
 
 Built using the [Follow](https://github.com/iriscouch/follow) library by Jason Smith of [Iris Couch](http://www.iriscouch.com/)
 
+## Installation
+
+     git clone git@github.com:hookio/couch.git
+     cd couch
+     npm install
+     node bin/couch
+
+### Using NPM
+
+    npm install hook.io-couch
+    hookio-couch --debug
+
 ## Hook Events Emitters
 
 **change** *event emitted when a document is changed*
