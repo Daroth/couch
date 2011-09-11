@@ -18,7 +18,7 @@ Built using the [Follow](https://github.com/iriscouch/follow) library by Jason S
 
 **Note: Using the default options hookio-couch will attempt to connect to http://localhost:5984/mydatabase**
 
-## Hook Events Emitters
+## Hook Event Emitters
 
 **change** *event emitted when a document is changed*
 
