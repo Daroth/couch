@@ -1,0 +1,22 @@
+{
+  "author": "Marak Squires <marak.squires@gmail.com>",
+  "name": "hook.io-couch",
+  "description": "emit hook.io events based on your CouchDB _changes feed",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hookio/couch.git"
+  },
+  "bin": {
+     "hookio-couch": "./bin/couch"
+   },
+  "main": "./lib/couch",
+  "engines": {
+    "node": ">= v0.4.7"
+  },
+  "dependencies": {
+    "hook.io" : "0.7.x",
+    "follow": "0.1.x"
+  },
+  "devDependencies": {}
+}

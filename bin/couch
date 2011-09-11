@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+var CouchHook = require('../lib/couch').CouchHook;
+
+var myhook = new CouchHook({
+  "name": "the-couch-hook",
+  "debug": true,
+  "feed-db": "http://localhost:5984/mydatabase",
+  "feed-since": "now",
+  "feed-heartbeat": 3000,
+  "feed-inactivity": 8640000,
+  "feed-include-docs" : true
+});
+
+myhook.start();
