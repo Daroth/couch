@@ -15,8 +15,8 @@
     "node": ">= v0.4.7"
   },
   "dependencies": {
-    "hook.io" : "0.7.x",
-    "follow": "0.1.x"
+    "hook.io" : "0.8.x",
+    "follow": "0.2.x"
   },
   "devDependencies": {}
 }

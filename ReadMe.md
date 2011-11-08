@@ -20,9 +20,9 @@ Built using the [Follow](https://github.com/iriscouch/follow) library by Jason S
 
 ## Hook Event Emitters
 
-**change** *event emitted when a document is changed*
+**couch::change** *event emitted when a document is changed*
 
-**error** *event emitted when there is an error in your changes feed*
+**couch::error** *event emitted when there is an error in your changes feed*
 
 `hook.io-couch` will also automatically detect CouchDB documents that conform to JSON-RPC 1.0. This means that a document that looks like this:
 
